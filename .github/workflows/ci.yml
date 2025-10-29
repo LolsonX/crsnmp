@@ -9,9 +9,12 @@ on:
       - main
 
 jobs:
-  build_test:
+  build:
     name: Build and test
     runs-on: ubuntu-latest
+
+    container:
+      image: crystallang/crystal
 
     steps:
       - uses: actions/checkout@v4
