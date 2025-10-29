@@ -1,0 +1,12 @@
+name: crsnmp
+version: 0.1.0
+
+authors:
+  - Karol Ostrowski <xlolsonx@gmail.com>
+
+development_dependencies:
+  ameba:
+    github: crystal-ameba/ameba
+crystal: '>= 1.18.2'
+
+license: MIT
